@@ -1,0 +1,98 @@
+{
+  "title": "New Page",
+  "pageData": {
+    "headerType": "landing"
+  },
+  "siteData": {
+    "name": "New Site",
+    "header": {
+      "links": [
+        { 
+          "title": "Главная страница",
+          "to": "/"
+        },
+        {
+          "title": "Вторая страница",
+          "to": "/second"
+        }
+      ]
+    }
+  },
+  "state": [
+    {
+      "blockId": "section-full-screen",
+      "data": { "indentHeader": true },
+      "props": { "id": "first-section" },
+      "id": "my-block",
+      "children": [
+        {
+          "blockId": "headline",
+          "data": {
+            "headline": "Главная страница",
+            "subtitle": "Попробуйте зайти также на вторую страницу",
+            "aligment": "left"
+          }
+        }
+      ]
+    },
+    {
+      "blockId": "summary-benifits",
+      "data": {
+        "heading": "Summary benifits",
+        "text": "ArrayBuffer и бинарные массивы являются частью ECMA-стандарта и, соответственно, частью JavaScript.\n\nКроме того, в браузере имеются дополнительные высокоуровневые объекты, описанные в File API.\n\nОбъект Blob состоит из необязательной строки type (обычно MIME-тип) и blobParts – последовательности других объектов Blob, строк и BufferSource.",
+        "image": {
+          "src": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814.png",
+          "previewSrc": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814-s256.png"
+        }
+      }
+    },
+    {
+      "blockId": "social-proof",
+      "data": {
+        "heading": "Наши успехи",
+        "items": [
+          {
+            "title": "Первое место по сайтам",
+            "subtitle": "20 апреля 2022",
+            "image": {
+              "src": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814.png",
+              "previewSrc": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814-s256.png"
+            }
+          },
+          {
+            "title": "Первое место по сайтам",
+            "subtitle": "20 апреля 2022",
+            "image": {
+              "src": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814.png",
+              "previewSrc": "https://builder.jt3.ru/uploads/c95e99c51401f78e1814-s256.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "blockId": "qa",
+      "data": {
+        "items": [
+          {
+            "question": "Render Functions & JSX",
+            "answer": "Vue recommends using templates to build applications in the vast majority of cases.\nHowever, there are situations where we need the full programmatic power of JavaScript."
+          },
+          {
+            "question": "Render Functions & JSX",
+            "answer": "Vue recommends using templates to build applications in the vast majority of cases.\nHowever, there are situations where we need the full programmatic power of JavaScript."
+          }
+        ]
+      }
+    },
+    {
+      "blockId": "footer",
+      "data": {
+        "color": "#444444",
+        "textLeft": "My company",
+        "textRight": "My company 2",
+        "copyright": "© My company 2024"
+      }
+    }
+  ]
+}

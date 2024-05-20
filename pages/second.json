@@ -1,0 +1,72 @@
+{
+  "title": "Second page",
+  "siteData": {
+    "header": {
+      "links": [
+        { 
+          "title": "Главная страница",
+          "to": "/"
+        },
+        {
+          "title": "Вторая страница",
+          "to": "/second"
+        }
+      ]
+    }
+  },
+  "state": [
+    {
+      "blockId": "header",
+      "data": {
+        "siteName": "New Page",
+        "links": [
+          { 
+            "title": "Главная страница",
+            "to": "/"
+          },
+          {
+            "title": "Вторая страница",
+            "to": "/second"
+          }
+        ]
+      }
+    },
+    {
+      "blockId": "section-full-screen",
+      "data": { "indentHeader": true },
+      "children": [
+        {
+          "blockId": "headline",
+          "data": {
+            "headline": "Добро пожаловать на сайт 2",
+            "subtitle": "Рады видеть вас всегда",
+            "aligment": "left"
+          }
+        }
+      ]
+    },
+    {
+      "blockId": "summary-benifits",
+      "data": {
+        "heading": "Summary benifits 2",
+        "text": "ArrayBuffer и бинарные массивы являются частью ECMA-стандарта и, соответственно, частью JavaScript.\n\nКроме того, в браузере имеются дополнительные высокоуровневые объекты, описанные в File API.\n\nОбъект Blob состоит из необязательной строки type (обычно MIME-тип) и blobParts – последовательности других объектов Blob, строк и BufferSource.",
+        "image": {
+          "src": "https://builder.jt3.ru/uploads/7b0fe7d0021e7b355389.png",
+          "previewSrc": "https://builder.jt3.ru/uploads/7b0fe7d0021e7b355389-s256.png"
+        }
+      }
+    },
+    {
+      "blockId": "footer",
+      "data": {
+        "color": "#444444",
+        "textLeft": "My company",
+        "textRight": "My company 2",
+        "copyright": "© My company 2024"
+      }
+    }
+  ],
+  "variables": {
+
+  }
+}

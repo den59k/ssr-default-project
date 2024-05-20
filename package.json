@@ -1,0 +1,28 @@
+{
+  "name": "ssr-default-project",
+  "version": "1.0.0",
+  "author": "curves",
+  "license": "MIT",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "build": "curves build",
+    "push": "curves push --key=C9-TAICxyLbHmphPJF2fEEqWdphgTT --host=https://builder.jt3.ru"
+  },
+  "devDependencies": {
+    "@curves_digital/builder": "^1.0.32",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vue-tsc": "^2.0.14"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "color2k": "^2.0.3",
+    "pinia": "^2.1.7",
+    "popmotion": "^11.0.5",
+    "vue": "^3.4.25"
+  }
+}
